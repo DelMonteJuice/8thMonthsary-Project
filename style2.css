@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+div{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 20px;
+}
+.yesrectangle{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(94, 255, 0);
+    border-radius: 20px;
+    position: relative;
+    left : 30%;
+    top: 30px;
+}
+.norectangle{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    position: relative;
+    left : 55%;
+   bottom: 90px;
+}
+.yes{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.no{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

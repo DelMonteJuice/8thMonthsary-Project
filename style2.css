@@ -1,9 +1,38 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-.yes{
-    position: relative;
-    width: 50px;
+.choice{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.btn-image{
+    display: inline-flex;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.btn-image img{
+    display: block;
+    width: 120px; /* adjust as needed */
     height: auto;
-    margin-right: 100%;
+}
+
+.btn-image:focus{
+    outline: 3px solid rgba(46, 204, 113, 0.35);
+    outline-offset: 4px;
+}
+
+.btn-image:active{ transform: translateY(1px); }
+
+/* Small screens */
+@media (max-width: 480px){
+    .btn-image img{ width: 90px; }
 }

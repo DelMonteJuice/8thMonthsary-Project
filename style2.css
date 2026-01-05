@@ -1,38 +1,18 @@
 body{
-    background-color: rgb(255, 255, 255);
-}
-.choice{
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+    background-color: rgb(237, 151, 151);
 }
 
-.btn-image{
-    display: inline-flex;
-    padding: 0;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: transform 0.08s ease, box-shadow 0.08s ease;
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    transform: translateY(600px);
 }
 
-.btn-image img{
-    display: block;
-    width: 120px; /* adjust as needed */
+.gif1{
+    width: 300px;
     height: auto;
-}
-
-.btn-image:focus{
-    outline: 3px solid rgba(46, 204, 113, 0.35);
-    outline-offset: 4px;
-}
-
-.btn-image:active{ transform: translateY(1px); }
-
-/* Small screens */
-@media (max-width: 480px){
-    .btn-image img{ width: 90px; }
+    position: relative;
+    transform: translateY(600px) translateX(200px);
 }

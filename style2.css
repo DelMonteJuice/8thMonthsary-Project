@@ -4,21 +4,21 @@ body{
 
 .text{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 180%;
     text-align: center;
     color: white;
-    transform: translateY(600px);
+
 }
 
 .gif1{
-    width: 300px;
+    width: 100%px;
     height: auto;
     position: relative;
-    transform: translateY(600px) translateX(200px);
+
 }
 
 .clickme{
-    transform: translateY(350px);
+
     color: white;
     text-align: center;
 }

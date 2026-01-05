@@ -16,3 +16,9 @@ body{
     position: relative;
     transform: translateY(600px) translateX(200px);
 }
+
+.clickme{
+    transform: translateY(350px);
+    color: white;
+    text-align: center;
+}
